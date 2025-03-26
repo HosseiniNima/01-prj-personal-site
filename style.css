@@ -20,3 +20,12 @@ h2 {
   text-align: center;
   padding: 20px;
 }
+
+/* Style for the profile photo */
+.profile-photo {
+  width: 200px; /* Set width to 200 pixels */
+  height: 200px; /* Set height to 200 pixels */
+  object-fit: cover; /* Crop the image to fit within the dimensions */
+  object-position: center bottom; /* Position the image at the center bottom */
+  border-radius: 10px; /* Optional: Add rounded corners for a polished look */
+}
