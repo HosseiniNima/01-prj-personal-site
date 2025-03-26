@@ -1,1 +1,21 @@
-/* Add you CSS here */
+/* Add a background color to the body */
+body {
+  background-color: #78ba62; /* Light Green Color*/
+  font-family: Verdana, sans-serif; /* Clean and simple font */
+}
+
+/* Style the main heading (H1) */
+h1 {
+  color: #6278ba; /* Blue color for the main heading */
+}
+
+/* Style the subheadings (H2) */
+h2 {
+  color: #ba6278; /* Pink color for subheadings */
+}
+
+/* Style the introduction section */
+#introduction {
+  text-align: center;
+  padding: 20px;
+}
