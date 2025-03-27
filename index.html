@@ -24,9 +24,39 @@
       padding: 20px;
       text-align: center;
     }
+
+    /* Navigation menu styling */
+    .nav-menu {
+      position: absolute; /* Position the menu at the top right */
+      top: 10px;
+      right: 10px;
+      background-color: #edf6f9; /* Light background color */
+      padding: 10px 20px;
+      border-radius: 5px; /* Rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    }
+
+    .nav-menu a {
+      text-decoration: none; /* Remove underline from links */
+      color: #006d77; /* Link color */
+      margin: 0 10px; /* Add spacing between links */
+      font-size: 16px; /* Font size for links */
+    }
+
+    .nav-menu a:hover {
+      color: #ffddd2; /* Change color on hover */
+    }
   </style>
 </head>
 <body>
+  <!-- Navigation menu -->
+  <div class="nav-menu">
+    <a href="#introduction">Intro</a>
+    <a href="#the-standard">Employer</a>
+    <a href="#projects">Links/Certifications</a>
+    <a href="#contact">Contact</a>
+  </div>
+
   <!-- Main container to hold all sections -->
   <div class="main-container">
     <!-- Introduction section -->
