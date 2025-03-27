@@ -45,7 +45,11 @@ h2 {
 
 /* Background colors for visual separation */
 #projects {
-  background-color: #edf6f9; /* Light green */
+  background-color: #edf6f9; /* Light grey */
+}
+
+#the-standard {
+  background-color: #e29578; /* Light orange */
 }
 
 #contact {
@@ -57,7 +61,7 @@ h2 {
   writing-mode: vertical-rl; /* Rotate text vertically from right to left */
   text-align: center; /* Center-align the text within its container */
   height: 200px; /* Match the height of the photo */
-  display: flex; /* Use flexbox for alignment */
+  display: display-box; /* Use flexbox for alignment */
   align-items: center; /* Vertically center the text */
   justify-content: center; /* Horizontally center the text */
 }
