@@ -1,19 +1,24 @@
 /* Add a background color to the body */
 body {
-  background-color: #78ba62; /* Light Green Color*/
+  background-color: #78ba62; /* Light Green Color */
   font-family: Verdana, sans-serif; /* Clean and simple font */
+  margin: 10px; /* Add space around the body for the border */
+  border: 20px solid #edf6f9; /* Add a border around the page */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
 }
 
 /* Style the main heading (H1) */
 h1 {
-  color: #6278ba; /* Blue color for the main heading */
-  font-size: 48px; /* Set font size to 48 pixels */
+  color: #ffddd2; /* Blue color for the main heading */
+  font-size: 60px; /* Set font size to 48 pixels */
   letter-spacing: -3px; /* Reduce the space between letters slightly */
 }
 
 /* Style the subheadings (H2) */
 h2 {
-  color: #ba6278; /* Pink color for subheadings */
+  color: #006d77; /* Pink color for subheadings */
+  font-size: 48px; /* Set font size to 48 pixels */
+  letter-spacing: -2px; /* Reduce the space between letters slightly */
   text-align: center; /* Center-align the subheadings */
 }
 
@@ -21,6 +26,7 @@ h2 {
 #introduction {
   text-align: center;
   padding: 20px;
+  background-color: #006d77; /* Light blue */
 }
 
 /* Style for the profile photo */
@@ -35,4 +41,13 @@ h2 {
 /* Style for the LinkedIn image in project 1 */
 #projects div:nth-child(1) img {
   border-radius: 15px; /* Add rounded corners */
+}
+
+/* Background colors for visual separation */
+#projects {
+  background-color: #edf6f9; /* Light green */
+}
+
+#contact {
+  background-color: #ffddd2; /* Light pink */
 }

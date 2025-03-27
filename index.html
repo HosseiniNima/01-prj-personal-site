@@ -4,46 +4,83 @@
   <meta charset="UTF-8">
   <title>Nima's Personal Site</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Basic styling for the body */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Flex container for the sections */
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh; /* Full viewport height */
+    }
+
+    /* Styling for each section */
+    section {
+      flex: 1; /* Equal height for all sections */
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <!-- Introduction section -->
-  <section id="introduction">
-    <h1>Nima Hosseini</h1>
-    <!-- Photo section -->
-    <div>
-      <!-- Displaying a photo -->
-      <img src="img/Wedding Photo.jpeg" alt="Wedding photo of Nima Hosseini" class="profile-photo">
-      <!-- Caption for the photo -->
-      <p style="font-style: italic;">Hello! My name is Nima Hosseini. I am helping out Podium Education Web Development Beta Testing.</p>
-    </div>
-  </section>
-
-  <!-- Projects section -->
-  <section id="projects">
-    <h2>My Projects</h2>
-    <!-- Container for project boxes -->
-    <div style="display: flex; justify-content: center;">
-      <!-- Project 1 -->
-      <div style="padding: 10px; width: 30%; text-align: center;">
-        <!-- Hyperlink embedded in the image -->
-        <a href="https://www.linkedin.com/in/nimahosseiniprofile/" target="_blank">
-          <img src="img/Linkedin.png" alt="LinkedIn Logo" style="width: 100px; height: auto; margin-bottom: 10px;">
-        </a>
+  <!-- Main container to hold all sections -->
+  <div class="main-container">
+    <!-- Introduction section -->
+    <section id="introduction">
+      <h1>Nima Hosseini</h1>
+      <!-- Job title section with smaller font and reduced spacing -->
+      <h2 style="font-weight: normal; color: #edf6f9; font-size: 36px; margin-top: -50px;">Operational Analyst</h2>
+      <div>
+        <img src="img/Wedding Photo.jpeg" alt="Wedding photo of Nima Hosseini" class="profile-photo">
+        <p style="font-style: italic;">Hello! My name is Nima Hosseini. I am helping out Podium Education Web Development Beta Testing.</p>
       </div>
-      <!-- Project 2 -->
-      <div style="padding: 10px; width: 30%; text-align: center;">
-        <!-- Hyperlink embedded in the image -->
-        <a href="https://www.asppa-net.org/certificates-credentials/" target="_blank">
-          <img src="img/QKA.png" alt="QKA Certification Logo" style="width: 100px; height: auto; margin-bottom: 10px;">
-        </a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, feel free to email me at <a href="mailto:your-email@example.com">nima.hosseini9@yahoo.com</a>.</p>
-  </section>
+    <!-- New section for The Standard -->
+    <section id="the-standard">
+      <h2>The Standard</h2>
+      <!-- Flex container for photo and text -->
+      <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding: 20px;">
+        <!-- Photo on the left -->
+        <div style="flex: 1; text-align: center; min-width: 200px;">
+          <img src="img/The Standard.jpg" alt="The Standard Logo" style="width: 200px; height: auto; border-radius: 10px;">
+        </div>
+        <!-- Text on the right -->
+        <div style="flex: 2; padding: 20px; text-align: left; max-width: 600px;">
+          <p style="font-size: 18px; line-height: 1.6; color: #333;">
+            At The Standard, we believe in the promise of equality, the power of compassion, and the strength of community. 
+            We’re always challenging ourselves to do better.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects">
+      <h2>Important Links and Certifications</h2>
+      <div style="display: flex; justify-content: center;">
+        <div style="padding: 10px; width: 30%; text-align: center;">
+          <a href="https://www.linkedin.com/in/nimahosseiniprofile/" target="_blank">
+            <img src="img/Linkedin.png" alt="LinkedIn Logo" style="width: 150px; height: auto; margin-bottom: 10px;">
+          </a>
+        </div>
+        <div style="padding: 10px; width: 30%; text-align: center;">
+          <a href="https://www.asppa-net.org/certificates-credentials/" target="_blank">
+            <img src="img/QKA logo.png" alt="QKA Certification Logo" style="width: 150px; height: auto; margin-bottom: 10px;">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to email me at <a href="mailto:your-email@example.com">nima.hosseini9@yahoo.com</a>.</p>
+    </section>
+  </div>
 </body>
 </html>
