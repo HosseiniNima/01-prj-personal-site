@@ -51,3 +51,19 @@ h2 {
 #contact {
   background-color: #ffddd2; /* Light pink */
 }
+
+/* Style for "The Standard" text to make it more vertical */
+#the-standard-text {
+  writing-mode: vertical-rl; /* Rotate text vertically from right to left */
+  text-align: center; /* Center-align the text within its container */
+  height: 200px; /* Match the height of the photo */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+}
+
+/* Ensure the container aligns with the photo */
+#the-standard-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+}
